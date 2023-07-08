@@ -19,8 +19,11 @@ def find_subarray_sum(arr, target_sum):
     else:
         return print("No subarray found with the given sum")
 
-# Example usage
-arr = [ 1, 2, 3, 7, 5]
-target_sum = 8
-result = find_subarray_sum(arr, target_sum)
-print(result)
+# Test Case:1
+print(find_subarray_sum([1, 2, 3, 7, 5], 12)) # Solution= [2, 4]
+
+# Test Case:2
+print(find_subarray_sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 15)) # Solution= [1, 5]
+
+# Test Case:3
+print(find_subarray_sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 19)) # Solution= [9, 10]

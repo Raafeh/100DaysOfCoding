@@ -6,7 +6,7 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 ## Example
 
-<img src="https://assets.leetcode.com/uploads/2021/04/09/sumii-linked-list.jpg" alt="Binary Tree" width="500" height="250">
+<img src="https://assets.leetcode.com/uploads/2021/04/09/sumii-linked-list.jpg" alt="Binary Tree" width="500" height="300">
 
 **Input:**
 
@@ -32,3 +32,4 @@ To solve this problem, we can use the following approach:
 
 The time and space complexity of this solution is O(max(N, M)), where N and M are the lengths of the two input linked lists.
 
+Feel free to explore the provided code implementation and modify it to suit your needs. Happy coding!

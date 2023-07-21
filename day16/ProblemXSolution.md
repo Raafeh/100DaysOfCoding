@@ -34,3 +34,5 @@ Finally, we loop through both `dp_lengths` and `dp_counts` arrays. If the length
 The time complexity of the solution is O(n^2), where n is the number of elements in the input array `nums`. This is because, in the worst case, we perform a nested loop over all elements to compare and update the `dp_lengths` and `dp_counts` arrays.
 
 The space complexity of the solution is O(n), where n is the number of elements in the input array `nums`. We use two additional arrays `dp_lengths` and `dp_counts`, each of the same length as the input array, to store the intermediate results. Hence, the space complexity is linear with respect to the size of the input array.
+
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

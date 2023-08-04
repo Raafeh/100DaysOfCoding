@@ -53,38 +53,6 @@ digits = "2"
 
 To solve this problem, we use a recursive approach with backtracking. We start by defining a mapping of digits to their corresponding letters. Then, we create a helper function called `backtrack` that explores all possible letter combinations by iterating through the digits and their corresponding letters. The function keeps track of the current combination being formed and recursively generates all possible choices for each digit's letters. When the length of the current combination equals the length of the input digits, we add it to the final result list.
 
-### Python Implementation
-
-```python
-def letter_combinations(digits):
-    if not digits:
-        return []
-
-    digit_to_letters = {
-        '2': 'abc',
-        '3': 'def',
-        '4': 'ghi',
-        '5': 'jkl',
-        '6': 'mno',
-        '7': 'pqrs',
-        '8': 'tuv',
-        '9': 'wxyz',
-    }
-
-    def backtrack(index, current_combination):
-        if len(current_combination) == len(digits):
-            result.append(current_combination)
-            return
-
-        letters = digit_to_letters[digits[index]]
-        for letter in letters:
-            backtrack(index + 1, current_combination + letter)
-
-    result = []
-    backtrack(0, "")
-    return result
-```
-
 ### Time and Space Complexity
 
 The time complexity of the solution is O(4^n) where n is the number of digits in the input. This is because each digit can have a maximum of 4 letters associated with it (e.g., '7' can have 'p', 'q', 'r', and 's').

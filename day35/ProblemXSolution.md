@@ -1,7 +1,5 @@
 # Minimize the Maximum Difference of Pairs
 
-This repository contains a solution to the "Minimum Maximum Difference of Pairs" problem, along with an explanation of the problem statement and the correct implementation in Python.
-
 ## Problem Statement
 
 Given a 0-indexed integer array `nums` and an integer `p`, the task is to find `p` pairs of indices in `nums` such that the maximum difference amongst all the pairs is minimized. The goal is to return the minimum maximum difference among all `p` pairs.

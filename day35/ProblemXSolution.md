@@ -1,4 +1,4 @@
-# Minimum Maximum Difference of Pairs
+# Minimize the Maximum Difference of Pairs
 
 This repository contains a solution to the "Minimum Maximum Difference of Pairs" problem, along with an explanation of the problem statement and the correct implementation in Python.
 
@@ -39,3 +39,5 @@ The time complexity of the solution is dominated by the binary search, which per
 Therefore, the overall time complexity of the solution is O(n * log(max_diff)).
 
 The space complexity is relatively low, as the solution primarily uses a few variables for iteration and comparison. Hence, the space complexity is O(1).
+
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

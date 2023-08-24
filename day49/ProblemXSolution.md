@@ -46,5 +46,3 @@ The time complexity of the solution is primarily determined by the heap operatio
 ### Space Complexity
 
 The space complexity is determined by the storage of characters and their frequencies in the heap. In the worst case, all unique characters are present in the heap, which requires O(n) space. Additionally, the result string occupies O(n) space. Hence, the total space complexity is O(n).
-
-Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

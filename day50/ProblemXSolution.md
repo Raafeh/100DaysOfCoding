@@ -1,4 +1,4 @@
-# Text Justification Problem and Solution
+# Text Justification
 
 ## Problem Description
 
@@ -35,8 +35,10 @@ The given problem can be solved using a greedy approach. We iterate through the 
 
 4. The `format_line` function is used to evenly distribute the extra spaces between words in a line. If there's only one word in the line, we simply left-justify it. Otherwise, we calculate the total spaces needed, divide it by the number of gaps between words, and add any remaining spaces to the left gaps.
 
-## Time and Space Complexity
+### Time and Space Complexity
 
 The time complexity of the solution is O(N), where N is the total number of characters in the input list of words. This is because we iterate through each word once.
 
 The space complexity is O(M), where M is the number of words in the input list. This is because we use the `line` list to store the words in the current line, which can have at most M words.
+
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

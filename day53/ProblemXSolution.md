@@ -48,3 +48,4 @@ The time complexity of this solution depends on the number of stones `n` and the
 
 The space complexity is determined by the storage of jump options for each stone. In the worst case, the frog can make all `m` jump sizes from each stone, leading to a space complexity of approximately O(n * m).
 
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

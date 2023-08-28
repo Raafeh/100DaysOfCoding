@@ -12,7 +12,7 @@ The goal is to implement a stack that supports the following operations:
 
 The catch is that only standard operations of a queue are allowed, which includes push to back, peek/pop from front, size, and is empty operations.
 
-## Solution Approach
+## Approach and Solution 
 
 The solution to this problem involves using two queues to simulate the behavior of a stack. The key idea is to maintain one queue as the "active" queue where new elements are pushed, while the other queue acts as a temporary buffer.
 

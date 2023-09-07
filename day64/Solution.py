@@ -28,3 +28,23 @@ class Solution:
         return dummy.next
 
 s = Solution()
+
+# Testcase 1:
+# Input: head = [1,2,3,4,5], left = 2, right = 4
+# Output: [1,4,3,2,5]
+head = ListNode(1)
+head.next = ListNode(2)
+head.next.next = ListNode(3)
+head.next.next.next = ListNode(4)
+head.next.next.next.next= ListNode(5)
+left = 2
+right = 4
+print(s.reverseBetween(head, left, right))
+
+# Testcase 2:
+# Input: head = [5], left = 1, right = 1
+# Output: [5]
+head = ListNode(5)
+left = 1
+right = 1
+print(s.reverseBetween(head, left, right))

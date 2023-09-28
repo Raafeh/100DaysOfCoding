@@ -30,3 +30,6 @@ The time complexity of this solution is O(N), where N is the number of elements 
 ### Space Complexity
 
 The space complexity of this solution is O(N), as we create two additional lists, `stack` and `odds`, to store the even and odd elements from `nums`. The space required for these lists is proportional to the size of the input array. However, the space complexity is still linear with respect to the input size.
+
+
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!

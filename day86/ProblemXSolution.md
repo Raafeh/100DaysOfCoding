@@ -23,3 +23,6 @@ The time complexity of this solution is O(n), where n is the number of elements 
 ### Space Complexity
 
 The space complexity of this solution is O(1), as we only use a constant amount of extra space to store the `increasing` and `decreasing` boolean variables. The space required does not depend on the size of the input array.
+
+
+Feel free to explore the repository and adapt the solution to your specific needs. Happy Coding!
